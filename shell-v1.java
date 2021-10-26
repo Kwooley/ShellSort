@@ -4,7 +4,8 @@ class ShellSort_v1 {
 		int len = numbers.length;
 		int i, j, key;
 		// Version 1: Use the gap n/2 and then gap 1
-		int gap = len / 2;
+		// int gap = len / 2;
+		int gap = 3;
 		for (i = gap; i < len; i++) {
 			key = numbers[i];
 			for (j = i; j >= gap; j -= gap) {
@@ -36,7 +37,7 @@ class ShellSort_v1 {
 	}
 
 	public static void main(String args[]) {
-		int numbers[] = { 41, 15, 82, 5, 65, 19, 32, 43, 8 }; // 9 elements
+		int numbers[] = { 54, 26, 93, 17, 77, 31, 33, 55, 20 }; // 9 elements
 		System.out.println("Initail Arrays");
 		printArray(numbers);
 

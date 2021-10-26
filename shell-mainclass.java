@@ -32,11 +32,12 @@ class Main {
 	public static void main(String args[]) {
 
 		// int numbers[] = { 41, 15, 82, 5, 65, 19, 32, 43, 8 }; // 9 elements
+		// int numbers[] = { 54, 26, 93, 17, 77, 31, 44, 55, 20 }; // 9 elements
 		int N = 9;
 		int numbers[] = new int[N];
 		Random rand = new Random();
 		for (int i = 0; i < N; i++) {
-			numbers[i] = rand.nextInt(100);
+			numbers[i] = rand.nextInt(100); // generate the random number between 0 and 99
 		}
 
 		System.out.println("Initail Arrays");

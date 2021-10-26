@@ -45,11 +45,10 @@ class ShellSort_G {
 		System.out.println("Array before sorting");
 		printArray(arr);
 
-		ShellSort ob = new ShellSort();
+		ShellSort_G ob = new ShellSort_G();
 		ob.sort(arr);
 
 		System.out.println("Array after sorting");
 		printArray(arr);
 	}
 }
-/* This code is contributed by Rajat Mishra */
